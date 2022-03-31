@@ -1,1 +1,5 @@
 # Crowd-Counting
+
+Crowd Counting is a technique used to estimate the number of people in an image or a video. Est-imating crowds from images or videos has became an increasingly important application of Computer Vision. Crowd counting use cases include: 1) Counting crowds in forbidden areas in a manufacturing unit to enforce safety rules and minimizing health risks. 2) Managing high traffic roads and public spaces. 3) Counting attendance in educational institutions. 4) Urban Planning. 5) Video Surveillance.
+
+Earlier Methods for Crowd Counting. 1) Detection Style Framework scans a detector over two consecutive frames of video sequence. Its limitation is occlusion. 2) Feature-based Regression is the most popular method for crowd counting. It is done by segmenting the foreground, extracting the various features and then applying regression function to estimate crowd count. Its limitation is that it is very difficult to get accurate estimate. estimate. 3) CNN-based method requires perspective map on both training and testing scenes. Perspective maps are not readily available and that is its only limitation.
